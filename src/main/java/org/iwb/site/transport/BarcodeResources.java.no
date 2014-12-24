@@ -1,0 +1,31 @@
+package org.iwb.site.transport;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * TODO document me
+ *
+ * @author Mathieu POUSSE <mathieu.pousse@zenika.com>
+ */
+@RestController
+@RequestMapping("/barcode")
+public class BarcodeResources {
+//
+//    @RequestMapping(value = "/{barcode}", method = RequestMethod.GET, produces = "image/png")
+//    public byte[] generate(final HttpServletResponse response,
+//                           @PathVariable("barcode") final String barcode,
+//                           @RequestParam(value = "w", required = false, defaultValue = "200") int width,
+//                           @RequestParam(value = "h", required = false, defaultValue = "80") int height)
+//            throws WriterException, IOException {
+//
+//        response.setHeader("Cache-Control", "public, max-age=2592000");
+//        BitMatrix bitMatrix = new MultiFormatWriter().encode(barcode, BarcodeFormat.EAN_13, width, height);
+//        ByteArrayOutputStream buffer = new ByteArrayOutputStream();
+//        MatrixToImageWriter.writeToStream(bitMatrix, "png", buffer);
+//        buffer.flush();
+//        buffer.close();
+//        return buffer.toByteArray();
+//    }
+
+}
